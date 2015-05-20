@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/iLad/projects/enernoc/oamp'
 let g:netrw_dirhist_2='/Users/iLad/projects/enernoc'
 let g:netrw_dirhist_3='/Users/iLad/projects/enernoc/oamp'
 let g:netrw_dirhist_4='/Users/iLad/projects/enernoc/oamp/angular'
 let g:netrw_dirhist_5='/Users/iLad/projects/enernoc/oamp'
+let g:netrw_dirhist_6='/Users/iLad/.vim/snippets'
+let g:netrw_dirhist_7='/Users/iLad/projects/arbor-backlog-writer'
+let g:netrw_dirhist_8='/Users/iLad/projects/arbor-backlog-writer/views'
