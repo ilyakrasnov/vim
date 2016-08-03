@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/iLad/projects/enernoc/oamp'
-let g:netrw_dirhist_2='/Users/iLad/.vim/bundle/vim-snipmate'
-let g:netrw_dirhist_3='/Users/iLad/projects/enernoc/oamp'
-let g:netrw_dirhist_4='/Users/iLad/projects'
+let g:netrw_dirhist_2='/Users/iLad/exercism/elixir/hello-world'
+let g:netrw_dirhist_3='/Users/iLad/exercism/elixir/word-count'
+let g:netrw_dirhist_4='/Users/iLad/exercism/elixir/acronym'
+let g:netrw_dirhist_5='/Users/iLad/exercism/elixir/run-length-encoding'
+let g:netrw_dirhist_6='/Users/iLad/exercism/elixir/acronym'
+let g:netrw_dirhist_7='/Users/iLad/projects/enernoc/oamp'
+let g:netrw_dirhist_8='/Users/iLad/projects/enernoc/Portal'

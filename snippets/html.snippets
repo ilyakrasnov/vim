@@ -187,4 +187,16 @@ snippet table
 		<tr><th>${3:Data}</th></tr>
 	</table>${4}
 snippet textarea
-	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5}
+	<textarea name="${1:Name}" rows="${2:8}" cols="${3:40}">${4}</textarea>${5
+snippet tmpl
+	<template name="${1}">
+		${2}
+	</template>
+snippet render
+	{{ renderPage }}
+snippet incl
+	{{> ${1} }}
+snippet each
+		{{#each ${1}}}
+		${2}
+		{{/each}}

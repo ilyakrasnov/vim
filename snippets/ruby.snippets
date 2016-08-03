@@ -13,7 +13,8 @@ snippet rb
 	#!/usr/bin/env ruby -wKU
 
 snippet req
-	require "${1}"${2}
+	require "${1}"
+	${2}
 snippet #
 	# =>
 snippet end
@@ -418,6 +419,14 @@ snippet tas
 	task :${2:task_name => [:dependent, :tasks]} do
 		${3}
 	end
-snippet pty
-	puts ${1:}.to_yaml
-	${2:}	
+snippet prp
+	property :${1},					${2}
+	${3}
+snippet des
+	describe '${1:description}' do
+		${2}
+	end
+snippet it
+	it '${1:does_sth}' do
+		${2}
+	end
